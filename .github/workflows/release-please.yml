@@ -10,4 +10,4 @@ jobs:
     uses: bloop-box/reusable-workflows/.github/workflows/release-please.yml@main
     with:
       config-file: release.kibot.yml
-      board-file: pcb/BloopBox Mainboard.kicad_pcb
+      board-file: pcb/bloop-box-core.kicad_pcb

@@ -13,4 +13,4 @@ jobs:
     uses: bloop-box/reusable-workflows/.github/workflows/kibot-check.yml@main
     with:
       config-file: kibot.yml
-      board-file: pcb/BloopBox Mainboard.kicad_pcb
+      board-file: pcb/bloop-box-core.kicad_pcb

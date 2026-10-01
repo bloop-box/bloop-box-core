@@ -15,11 +15,11 @@ jobs:
     uses: bloop-box/reusable-workflows/.github/workflows/kibot-check.yml@main
     with:
       config-file: kibot.yml
-      board-file: pcb/BloopBox Mainboard.kicad_pcb
+      board-file: pcb/bloop-box-core.kicad_pcb
 
   docs:
     name: Docs
     uses: bloop-box/reusable-workflows/.github/workflows/kibot-docs.yml@main
     with:
       config-file: kibot.yml
-      board-file: pcb/BloopBox Mainboard.kicad_pcb
+      board-file: pcb/bloop-box-core.kicad_pcb
